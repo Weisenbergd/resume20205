@@ -14,12 +14,12 @@ export default function About() {
             developer.
           </p>
           <p>
-            I have a chaelor's degree in philosophy but found my passion in web
+            I have a bachelor's degree in philosophy but found my passion in web
             development, teaching myself both front-end and back-end
             technologies.
           </p>
           <p>
-            The projects here represent the culmunation of my journey,
+            The projects here represent the culmination of my journey,
             showcasing a diverse set of tools, frameworks, and approaches.
           </p>
         </div>
