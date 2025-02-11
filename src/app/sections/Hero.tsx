@@ -10,7 +10,7 @@ export default function Hero() {
       className="flex relative flex-col md:flex-row justify-center gap-20 md:gap-16 lg:gap-60 items-center pb-60 md:pb-64 mt-10 md:mt-20"
     >
       <div className="flex flex-col gap-24 md:order-last items-center">
-        <div className=" relative max-md:right-12  ">
+        <div className=" relative">
           <H1 className="flex flex-col  gap-1">
             <span>Drew</span>
             <span className="relative ">Weisenberg.</span>
