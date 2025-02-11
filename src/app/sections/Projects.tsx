@@ -60,7 +60,9 @@ export default function Projects() {
             <div className="flex flex-col items-center gap-4 w-full" key={name}>
               <div className="flex flex-col items-center gap-4  ">
                 <h3 className="text-3xl  ">{name}</h3>
-                <p className="lg:min-h-[3rem]">{description}</p>
+                <p className="lg:min-h-[3rem] text-center max-w-52">
+                  {description}
+                </p>
               </div>
 
               <a className="" href={site}>
@@ -85,7 +87,7 @@ export default function Projects() {
               <ul className="flex flex-col gap-1">
                 {links.map(({ name, link }) => (
                   <a
-                    className="even:text-mustard odd:text-orange"
+                    className="even:text-orange odd:text-orange"
                     href={link}
                     key={link}
                   >
