@@ -15,6 +15,7 @@ export default {
         mustard: "var(--mustard)",
         orange: "var(--orange)",
         olive: "var(--olive)",
+        green: "var(--green)",
       },
     },
   },

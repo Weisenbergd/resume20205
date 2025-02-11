@@ -55,38 +55,47 @@ export default function Projects() {
       <H2>projects.</H2>
       {/* <div> */}
       <div className="flex flex-col lg:flex-row lg:justify-center gap-32  lg:gap-12">
-        {workData.map(({ name, description, site, image, tools, links }) => (
-          <div className="flex flex-col items-center gap-4 w-full" key={name}>
-            <div className="flex flex-col items-center gap-4  ">
-              <h3 className="text-3xl  ">{name}</h3>
-              <p className="lg:min-h-[3rem]">{description}</p>
+        {workData.map(
+          ({ name, description, site, image, tools, links }, index) => (
+            <div className="flex flex-col items-center gap-4 w-full" key={name}>
+              <div className="flex flex-col items-center gap-4  ">
+                <h3 className="text-3xl  ">{name}</h3>
+                <p className="lg:min-h-[3rem]">{description}</p>
+              </div>
+
+              <a className="" href={site}>
+                <Photo
+                  source={image}
+                  alt={name}
+                  className={`self-center ${
+                    index % 2 === 0 ? "bg-orange" : "bg-orange"
+                  }`}
+                />
+              </a>
+              <ul className="flex self-center ">
+                {tools.map((tool) => (
+                  <li
+                    className="after:content-['・'] after:px-1 last:after:content-none"
+                    key={tool}
+                  >
+                    {tool}
+                  </li>
+                ))}
+              </ul>
+              <ul className="flex flex-col gap-1">
+                {links.map(({ name, link }) => (
+                  <a
+                    className="even:text-mustard odd:text-orange"
+                    href={link}
+                    key={link}
+                  >
+                    {name}
+                  </a>
+                ))}
+              </ul>
             </div>
-            <a href={site}>
-              <Photo source={image} alt={name} className="self-center" />
-            </a>
-            <ul className="flex self-center ">
-              {tools.map((tool) => (
-                <li
-                  className="after:content-['・'] after:px-1 last:after:content-none"
-                  key={tool}
-                >
-                  {tool}
-                </li>
-              ))}
-            </ul>
-            <ul className="flex flex-col gap-1">
-              {links.map(({ name, link }) => (
-                <a
-                  className="even:text-mustard odd:text-orange"
-                  href={link}
-                  key={link}
-                >
-                  {name}
-                </a>
-              ))}
-            </ul>
-          </div>
-        ))}
+          )
+        )}
       </div>
       {/* </div> */}
     </SectionDiv>

@@ -26,7 +26,11 @@ const tools = [
 
 export default function Skills() {
   return (
-    <SectionDiv variant="dark">
+    <SectionDiv variant="dark" className="relative">
+      {/* <div className="absolute h-20 w-20 bg-green rounded-xl md:right-[9.4rem] top-0 max-md:bottom-0 max-md:left-[calc(50%+3rem)] max-md:-translate-x-1/2 " /> */}
+      <div className="absolute h-20 w-20 bg-orange rounded-xl  md:right-[15.4rem] top-[-1rem] md:rounded-bl-none  max-md:left-[calc(50%+3rem)] max-md:-translate-x-1/2 " />
+      <div className="max-md:opacity-0 absolute h-20 w-20 bg-orange rounded-xl md:rounded-tr-none  md:right-[20.4rem] top-[4rem]  max-md:left-[calc(50%+3rem)] max-md:-translate-x-1/2 " />
+
       <H2>skills.</H2>
       <div className="flex flex-col gap-6 relative">
         <ul className=" flex flex-col text-3xl gap-2 ">
@@ -35,7 +39,14 @@ export default function Skills() {
           ))}
         </ul>
 
-        <div className=" absolute left-[50%] transform translate-x-1/2 before:content-[''] bottom-0 before:absolute before:-top-60 before:h-[21rem] before:bg-light before:w-[1px] z-[50]"></div>
+        {/* <div className=" absolute left-[50%] transform translate-x-1/2 before:content-[''] bottom-0 before:absolute before:-top-60 before:h-[21rem] before:bg-light before:w-[1px] z-[50]"> */}
+        <div className=" absolute left-[50%] transform translate-x-1/2 before:content-[''] bottom-0 before:absolute ">
+          <div className="absolute h-20 w-20 bg-orange rounded-xl rounded-br-none -bottom-[6rem] right-0" />
+          <div className="absolute h-20 w-20 bg-orange rounded-xl rounded-tl-none rounded-br-none -bottom-[11rem] -right-[5rem]" />
+          <div className="absolute h-20 w-20 bg-orange rounded-xl rounded-tl-none rounded-br-none -bottom-[16rem] -right-[10rem]" />
+          <div className="max-md:opacity-0 absolute h-20 w-20 bg-orange rounded-xl rounded-tl-none rounded-br-none -bottom-[21rem] -right-[15rem]" />
+          <div className="max-md:opacity-0 absolute h-20 w-20 bg-orange rounded-xl rounded-tl-none rounded-br-none -bottom-[21rem] right-0 rounded-tr-none" />
+        </div>
         <div className="grid grid-cols-2">
           <div></div>
           <div>

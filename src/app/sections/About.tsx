@@ -4,10 +4,10 @@ import SectionDiv from "../components/SectionDiv";
 
 export default function About() {
   return (
-    <SectionDiv variant="light" className="">
+    <SectionDiv variant="light" className="relative">
       {/* <div className="max-w-[50rem] mx-auto"> */}
       <H2>about.</H2>
-      <div className="flex max-md:flex-col max-md:items-center max-md:gap-14 justify-between">
+      <div className="flex max-md:flex-col max-md:items-center max-md:gap-14 justify-between pb-24 ">
         <div className="flex flex-col gap-4 max-w-[25rem]">
           <p>
             Hi, I'm Drew Weisenberg. Im 33 years old junior Javascript web
@@ -30,12 +30,15 @@ export default function About() {
             alt={"test"}
             className="self-center w-full"
           /> */}
-          <div className="rounded-[5rem] h-80 bg-orange w-[18rem] object-top object-contain " />
+          {/* <div className="rounded-[5rem] h-80 bg-orange w-[18rem] object-top object-contain opacity-0 " /> */}
 
           {/* <div className=""></div> */}
         </div>
       </div>
       {/* </div> */}
+
+      <div className="absolute h-20 w-20 bg-orange rounded-xl md:right-[15.4rem] md:top-0 max-md:bottom-0 max-md:left-[calc(50%-3rem)] max-md:-translate-x-1/2" />
+      <div className="absolute h-20 w-20 bg-orange rounded-xl md:right-[9.4rem] md:top-0 max-md:bottom-0 max-md:left-[calc(50%+3rem)] max-md:-translate-x-1/2 " />
     </SectionDiv>
   );
 }

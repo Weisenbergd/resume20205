@@ -9,7 +9,7 @@ type Props = {
 
 export default function Photo({ className, source, alt }: Props) {
   return (
-    <div className={clsx("", className)}>
+    <div className={clsx("")}>
       <Image
         src={
           source ||
@@ -19,7 +19,8 @@ export default function Photo({ className, source, alt }: Props) {
         width={300}
         height={300}
         className={clsx(
-          "rounded-[5rem] h-80 bg-orange w-[18rem] object-top object-contain "
+          "rounded-[5rem] h-80 w-[18rem] object-top object-contain",
+          className
         )}
       />
     </div>
