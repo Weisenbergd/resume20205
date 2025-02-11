@@ -30,7 +30,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${domine.variable} ${poppins.variable}`}>
+    <html
+      lang="en"
+      className={`${domine.variable} ${poppins.variable} overflow-x-hidden`}
+    >
       <body className={`antialiased`}>{children}</body>
     </html>
   );
