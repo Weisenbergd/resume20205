@@ -15,7 +15,7 @@ export default function Hero() {
             <span>Drew</span>
             <span className="relative ">Weisenberg.</span>
           </H1>
-          <div className="absolute h-20 w-20 rounded-br-none bg-orange -bottom-[10rem] right-[5rem] max-md:-bottom-[20.3rem] max-md:right-[.7rem] rounded-xl" />
+          <div className="absolute h-20 w-20 rounded-br-none bg-orange -bottom-[10rem] right-[5rem] max-md:-bottom-[20rem] max-md:right-[1rem] rounded-xl" />
           <div className="absolute h-20 w-20 rounded-tl-none bg-orange -bottom-[15rem] right-0 max-md:-bottom-[25rem] max-md:right-[-4rem] rounded-xl" />
         </div>
         {/* <Photo source={"/"} alt={"test"} className="self-center opacity-0" /> */}
