@@ -10,7 +10,7 @@ export default function About() {
       <div className="flex max-md:flex-col max-md:items-center max-md:gap-14 justify-between pb-24 ">
         <div className="flex flex-col gap-4 max-w-[25rem]">
           <p>
-            Hi, I'm Drew Weisenberg. Im 33 years old junior Javascript web
+            Hi, I'm Drew Weisenberg. I'm a 33-year-old junior Javascript web
             developer.
           </p>
           <p>

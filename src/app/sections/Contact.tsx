@@ -3,7 +3,7 @@ import SectionDiv from "../components/SectionDiv";
 
 export default function Contact() {
   return (
-    <SectionDiv variant="light" className="h-[32rem] ">
+    <SectionDiv variant="light" className="h-[32rem] lg:mb-[15rem] ">
       <H2>contact.</H2>
       <div className="">
         {/* <div className="mt-10 relative transform translate-x-1/2 bg-dark  before:content-[''] before:h-96 before:w-[1px] before:bg-dark before:absolute before:-top-[19.3rem] "></div> */}
