@@ -15,6 +15,15 @@ export default function Contact() {
               <li>weisenbergd@gmail.com</li>
               <li>(+1)727-358-6907</li>
               <li>Safety Harbor, FL</li>
+              <li>
+                <a
+                  className="text-orange"
+                  href="/weisenberd-portfolio-2025.pdf"
+                  target="_blank"
+                >
+                  résumé link
+                </a>
+              </li>
             </ul>
           </div>
         </div>
