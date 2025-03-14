@@ -14,7 +14,7 @@ export default function SectionDiv({ children, variant, className }: Props) {
           "bg-dark text-light": variant === "dark",
           "bg-light text-dark": variant === "light",
         },
-        "py-[6rem]"
+        "py-[8rem] pb-[20rem]"
       )}
     >
       <div

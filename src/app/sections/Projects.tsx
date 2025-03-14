@@ -51,9 +51,10 @@ const workData = [
 
 export default function Projects() {
   return (
-    <SectionDiv className="" variant="dark">
+    <SectionDiv className="relative" variant="dark">
       <H2>projects.</H2>
       {/* <div> */}
+
       <div className="flex flex-col lg:flex-row lg:justify-center gap-32  lg:gap-12">
         {workData.map(
           ({ name, description, site, image, tools, links }, index) => (

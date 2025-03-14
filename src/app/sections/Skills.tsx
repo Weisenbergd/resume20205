@@ -28,7 +28,7 @@ export default function Skills() {
   return (
     <SectionDiv variant="dark" className="relative">
       {/* <div className="absolute h-20 w-20 bg-green rounded-xl md:right-[9.4rem] top-0 max-md:bottom-0 max-md:left-[calc(50%+3rem)] max-md:-translate-x-1/2 " /> */}
-      <div className="absolute h-20 w-20 bg-orange rounded-xl  md:right-[15.4rem] top-[-1rem] md:rounded-bl-none  max-md:left-[calc(50%+3rem)] max-md:-translate-x-1/2 " />
+      {/* <div className="absolute h-20 w-20 bg-orange rounded-xl  md:right-[15.4rem] top-[-8rem] md:rounded-bl-none  max-md:left-[calc(50%+3rem)] max-md:-translate-x-1/2 " /> */}
       <div className="max-md:opacity-0 absolute h-20 w-20 bg-orange rounded-xl md:rounded-tr-none  md:right-[20.4rem] top-[4rem]  max-md:left-[calc(50%+3rem)] max-md:-translate-x-1/2 " />
 
       <H2>skills.</H2>
@@ -59,7 +59,7 @@ export default function Skills() {
           <div className=" absolute h-20 w-20 bg-orange rounded-xl rounded-tl-none rounded-br-none -bottom-[66rem] -right-[60rem]" />
           <div className=" absolute h-20 w-20 bg-orange rounded-xl rounded-tl-none rounded-br-none -bottom-[71rem] -right-[65rem]" /> */}
 
-          <div className="max-md:opacity-0 absolute h-20 w-20 bg-orange rounded-xl rounded-tl-none rounded-br-none -bottom-[21rem] right-0 rounded-tr-none" />
+          <div className="max-md:opacity-0 absolute h-20 w-20 bg-orange rounded-xl  -bottom-[21rem] right-0 rounded-tr-none" />
         </div>
         <div className="grid grid-cols-2">
           <div></div>
