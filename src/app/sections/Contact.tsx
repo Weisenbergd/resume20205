@@ -3,9 +3,13 @@ import SectionDiv from "../components/SectionDiv";
 
 export default function Contact() {
   return (
-    <SectionDiv variant="light" className="h-[30rem] lg:mb-[15rem] relative">
+    <SectionDiv
+      id="contact"
+      variant="light"
+      className="h-[30rem] lg:mb-[15rem] relative"
+    >
       <H2>contact.</H2>
-      <div className="">
+      <div className="" id="contact">
         {/* <div className="mt-10 relative transform translate-x-1/2 bg-dark  before:content-[''] before:h-96 before:w-[1px] before:bg-dark before:absolute before:-top-[19.3rem] "></div> */}
         {/* <div className="text-dark  h-fit w-fit md:w-[32rem]  mx-auto flex  md:transform md:translate-x-1/2"> */}
         <div className="flex justify-center md:justify-end z-50 relative">

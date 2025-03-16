@@ -1,9 +1,9 @@
 import clsx from "clsx";
 
-type Props = {
+type Props = React.HTMLAttributes<HTMLDivElement> & {
   children: React.ReactNode;
   variant: string;
-  className?: string;
+  className: string;
 };
 
 export default function SectionDiv({ children, variant, className }: Props) {

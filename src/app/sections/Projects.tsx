@@ -87,12 +87,8 @@ export default function Projects() {
               </ul>
               <ul className="flex flex-col gap-1">
                 {links.map(({ name, link }) => (
-                  <a
-                    className="even:text-orange odd:text-orange"
-                    href={link}
-                    key={link}
-                  >
-                    {name}
+                  <a className="" href={link} key={link}>
+                    {name} <span className="text-orange">&rarr;</span>
                   </a>
                 ))}
               </ul>

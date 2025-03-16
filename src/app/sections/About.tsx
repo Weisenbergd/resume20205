@@ -24,16 +24,13 @@ export default function About() {
           </p>
         </div>
 
-        <div className="">
-          {/* <Photo
+        {/* <div className="">
+          <Photo
             source={"/Images/Screenshot 2025-02-02 at 18-04-48 Vite React.png"}
             alt={"test"}
             className="self-center w-full"
-          /> */}
-          {/* <div className="rounded-[5rem] h-80 bg-orange w-[18rem] object-top object-contain opacity-0 " /> */}
-
-          {/* <div className=""></div> */}
-        </div>
+          />
+        </div> */}
       </div>
       {/* </div> */}
 
