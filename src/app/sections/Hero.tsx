@@ -17,9 +17,9 @@ export default function Hero() {
           </H1>
           <div className="absolute h-20 w-20 rounded-br-none bg-orange -bottom-[10rem] right-[5rem] max-md:-bottom-[20rem] max-md:right-[3rem] rounded-xl" />
           <div className="absolute h-20 w-20 rounded-tl-none bg-orange -bottom-[15rem] right-0 max-md:-bottom-[25rem] max-md:right-[-2rem] rounded-xl" />
-          <div className="absolute h-20 w-20 rounded-tr-none bg-orange -bottom-[41rem] right-[5rem] max-md:-bottom-[49.5rem] max-md:right-[3rem] rounded-xl" />
+          {/* <div className="absolute h-20 w-20 rounded-tr-none bg-orange -bottom-[41rem] right-[5rem] max-md:-bottom-[49.5rem] max-md:right-[3rem] rounded-xl" /> */}
 
-          <div className="absolute h-20 w-20 rounded-bl-none bg-orange -bottom-[36rem] right-0 max-md:-bottom-[44.5rem] max-md:right-[-2rem] rounded-xl" />
+          <div className="absolute h-20 w-20 rounded-bl-none rounded-br-none bg-orange -bottom-[36rem] right-0 max-md:-bottom-[44.5rem] max-md:right-[-2rem] rounded-xl" />
         </div>
         {/* <Photo source={"/"} alt={"test"} className="self-center opacity-0" /> */}
         {/* <div className="rounded-[5rem] h-80 bg-orange w-[18rem] object-top object-contain " /> */}
